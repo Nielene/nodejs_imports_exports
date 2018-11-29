@@ -26,5 +26,5 @@ function modular(folderName, extension, callback) {
 }
 
 module.exports = {
-  modular
+  modular,
 }

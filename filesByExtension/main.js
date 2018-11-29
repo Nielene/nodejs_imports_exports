@@ -1,9 +1,9 @@
-const filterFilesFn = require (./filterFiles.js);
+const filterFilesFn = require ("./filterFiles.js");
 
 const folder = process.argv[2]
 const ext = '.' + process.argv[3]
 
-modular(folderName, extension, callback);
+modular(folderName.modular, extension, callback.modular);
 
 callback(errObj, listArray) {
   if (errObj !== null) {
