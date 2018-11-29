@@ -10,3 +10,4 @@ console.log(mathModule.square(5));
 
 console.log(stringModule.firstLetter("hello"));
 console.log(stringModule.reverseStringJonA("hello"));
+console.log(stringModule.capFirstLetter("hello"));
